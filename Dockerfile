@@ -37,6 +37,3 @@ RUN rm -rf /tmp/*
 
 # Browse to project directory
 WORKDIR /project
-
-# Change to mpi user
-#USER mpi
