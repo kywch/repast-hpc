@@ -1,11 +1,11 @@
 FROM nlknguyen/alpine-mpich
 
-MAINTAINER Ezequiel M Gioia <@eze1981>
+MAINTAINER Ezequiel Gioia <@eze1981>
 
 # change to root user
 USER root
 
-# 
+# Install packages
 RUN apk add --no-cache --update \
   ca-certificates \
   openssl \
@@ -37,3 +37,4 @@ RUN rm -rf /tmp/*
 
 # Browse to project directory
 WORKDIR /project
+WORKDIR /tmp
