@@ -38,5 +38,5 @@ RUN rm -rf /tmp/*
 # Browse to project directory
 WORKDIR /project
 
-# Copy examples into /project directory
-RUN cp -r /root/sfw/repast_hpc-2.2.0/bin/ /project/examples/
+# Move examples into /project directory
+RUN mv -r /root/sfw/repast_hpc-2.2.0/bin/ /project/examples/
