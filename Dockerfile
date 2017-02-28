@@ -39,4 +39,4 @@ RUN rm -rf /tmp/*
 WORKDIR /project
 
 # Move examples into /project directory
-RUN mv -r /root/sfw/repast_hpc-2.2.0/bin/ /project/examples/
+RUN mv /root/sfw/repast_hpc-2.2.0/bin/ /project/examples/
