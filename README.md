@@ -10,7 +10,7 @@ To download updated images:
 
 To run repast-hpc mapping your current directory into the container:
 
-```docker run --rm -it -v $(pwd):/project repast-hpc```
+```docker run --rm -it -v $(pwd):/project eze1981/repast-hpc```
 
 # Build 
 
