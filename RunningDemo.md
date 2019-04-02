@@ -5,7 +5,7 @@ Do successfully run https://repast.github.io/hpc_tutorial/RepastHPC_Demo_00_Step
 
 When using the eze1981/repast-hpc docker file, /project/SRC/work/env needs to be changed like the below:
 
-'''
+```
 #*******************************
 #
 # Repast HPC Tutorial
@@ -22,6 +22,6 @@ BOOST_LIBS=-lboost_mpi-mt-s -lboost_serialization-mt-s -lboost_system-mt-s -lboo
 REPAST_HPC_INCLUDE=-I/root/sfw/repast_hpc-2.2.0/
 REPAST_HPC_LIB_DIR=-L/root/sfw/repast_hpc-2.2.0/lib
 REPAST_HPC_LIB=-lrepast_hpc_gcc
-'''
+```
 
 
