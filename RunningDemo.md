@@ -3,7 +3,7 @@
 # Changing the env file
 Do successfully run https://repast.github.io/hpc_tutorial/RepastHPC_Demo_00_Step_01.html
 
-When using the eze1981/repast-hpc docker file, /project/SRC/work/env needs to be changed like the below:
+When using the eze1981/repast-hpc docker file, ```/project/SRC/work/env``` needs to be changed like the below:
 
 ```
 #*******************************
