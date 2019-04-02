@@ -20,7 +20,7 @@ BOOST_LIB_DIR=-L/root/sfw/Boost/Boost_1.61/lib/
 BOOST_LIBS=-lboost_mpi-mt-s -lboost_serialization-mt-s -lboost_system-mt-s -lboost_filesystem-mt-s
 
 REPAST_HPC_INCLUDE=-I/root/sfw/repast_hpc-2.2.0/
-REPAST_HPC_LIB_DIR=-L/root/sfw/repast_hpc-2.2.0/lib
+REPAST_HPC_LIB_DIR=-L/root/sfw/repast_hpc-2.2.0/lib/
 REPAST_HPC_LIB=-lrepast_hpc_gcc
 ```
 
