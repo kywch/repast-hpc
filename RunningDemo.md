@@ -1,6 +1,6 @@
 ### Running the repast-hpc using the docker file eze1981/repast-hpc
 
-### Changing the env file to complete Demo_00_Step_01
+### Changing the env file to complete Demo_00
 When using the eze1981/repast-hpc docker file, ```/project/SRC/work/env``` needs to be changed like the below:
 * The names of boost library need to be matched, so '-s' should be deleted from the BOOST_LIBS entries
 * The name of repast library need to be matched, REPAST_HPC_LIB was set to lrepast_hpc-2.2.0.
@@ -9,6 +9,8 @@ When using the eze1981/repast-hpc docker file, ```/project/SRC/work/env``` needs
   * Compiling Demo00.exe: ```make RepastHPC_Demo_00```
   * Running the single Demo00.exe: ```./Demo_00.exe```
   * Running four instances of Demo00.exe: ```/usr/local/bin/mpirun -n 4 ./Demo_00.exe```
+* The REPAST_HPC_INCLUDE should be set to ```/root/sfw/repast_hpc-2.2.0/include/``` to run https://repast.github.io/hpc_tutorial/RepastHPC_Demo_00_Step_05.html --> The compile was successful with a few warnings.
+  
 
 ```
 #*******************************
