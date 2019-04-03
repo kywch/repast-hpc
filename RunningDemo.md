@@ -28,7 +28,7 @@ BOOST_INCLUDE=-I/root/sfw/Boost/Boost_1.61/include/
 BOOST_LIB_DIR=-L/root/sfw/Boost/Boost_1.61/lib/
 BOOST_LIBS=-lboost_mpi-mt -lboost_serialization-mt -lboost_system-mt -lboost_filesystem-mt
 
-REPAST_HPC_INCLUDE=-I/root/sfw/repast_hpc-2.2.0/
+REPAST_HPC_INCLUDE=-I/root/sfw/repast_hpc-2.2.0/include/
 REPAST_HPC_LIB_DIR=-L/root/sfw/repast_hpc-2.2.0/lib/
 REPAST_HPC_LIB=-static -lrepast_hpc-2.2.0
 ```
