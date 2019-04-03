@@ -10,7 +10,7 @@ When using the eze1981/repast-hpc docker file, ```/project/SRC/work/env``` needs
   * Running the single Demo00.exe: ```./Demo_00.exe```
   * Running four instances of Demo00.exe: ```/usr/local/bin/mpirun -n 4 ./Demo_00.exe```
 * The REPAST_HPC_INCLUDE should be set to ```/root/sfw/repast_hpc-2.2.0/include/``` to run https://repast.github.io/hpc_tutorial/RepastHPC_Demo_00_Step_05.html --> The compile was successful with a few warnings.
-* Without any further changes, https://repast.github.io/hpc_tutorial/RepastHPC_Demo_00_Step_08.html ran fine. E.g., ```/usr/local/bin/mpirun -n 4 ./Demo_00.exe config.props```
+* Without any further changes, https://repast.github.io/hpc_tutorial/RepastHPC_Demo_00_Step_15.html ran fine. E.g., ``` /usr/local/bin/mpirun -n 4 ./Demo_00.exe config.props model.props RunNumber=4 stop.at=5```
 
   
 
