@@ -6,9 +6,9 @@ When using the eze1981/repast-hpc docker file, ```/project/SRC/work/env``` needs
 * The name of repast library need to be matched, REPAST_HPC_LIB was set to lrepast_hpc-2.2.0.
 * It is recommended that the library files are statically linked (i.e., using libXXX.a files instead of libXXX.so files). To do so, -static flag was added in the REPAST_HPC_LIB field. 
 * After these changes, Demo_00_Step_01 was successful: https://repast.github.io/hpc_tutorial/RepastHPC_Demo_00_Step_01.html
-  * Compiling Demo00.exe: '''make RepastHPC_Demo_00'''
-  * Running the single Demo00.exe: '''./Demo_00.exe'''
-  * Running four instances of Demo00.exe: '''/usr/local/bin/mpirun -n 4 ./Demo_00.exe '''
+  * Compiling Demo00.exe: ```make RepastHPC_Demo_00```
+  * Running the single Demo00.exe: ```./Demo_00.exe```
+  * Running four instances of Demo00.exe: ```/usr/local/bin/mpirun -n 4 ./Demo_00.exe```
 
 ```
 #*******************************
